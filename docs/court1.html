@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/p2p-media-loader-core@latest/build/p2p-media-loader-core.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p2p-media-loader-hlsjs@latest/build/p2p-media-loader-hlsjs.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/clappr@latest"></script>
+    <script src="https://cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4072499761055074"
             crossorigin="anonymous"></script>
 </head>
@@ -37,6 +38,7 @@
             source: "https://streamer101.dosbnewmedia.de/hls/78.47.142.23/7470f5007c73013ad69b107b44b0b31d_live-3/index.m3u8",
             mute: true,
             autoPlay: true,
+            plugins: [LevelSelector],
             playback: {
                 hlsjsConfig: {
                     liveSyncDurationCount: 7,
